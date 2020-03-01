@@ -1,0 +1,5 @@
+Response:
+  $ref: ./common/Response.yaml
+
+LoginRequest:
+  $ref: ./LoginRequest.yaml

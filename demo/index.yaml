@@ -1,0 +1,6 @@
+# an example of yaml file
+
+definitions:
+  $ref: ./definitions/index.yaml
+responses:
+  $ref: '#/definitions/Response'

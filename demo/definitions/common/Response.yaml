@@ -1,0 +1,13 @@
+type: object
+properties:
+  isSuccessful:
+    type: boolean
+  errorMessages:
+    type: array
+    items:
+      type: object
+      properties:
+        message:
+          type: string
+        code:
+          type: integer
